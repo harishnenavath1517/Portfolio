@@ -76,7 +76,7 @@ export default function Playground() {
               <span className="eyebrow block mb-3">AI Playground</span>
               <h1 className="section-heading mb-3">Ask My Portfolio</h1>
               <p className="text-base max-w-lg" style={{ color: "var(--color-muted)" }}>
-                Chat with an AI assistant that knows everything about Roorq — projects, skills, background, and more.
+                Chat with an AI assistant that knows everything about Harish — projects, skills, background, and more.
               </p>
             </div>
             {messages.length > 0 && !isPending && (
@@ -121,7 +121,7 @@ export default function Playground() {
                   </div>
                   <div className="chat-bubble-assistant">
                     <p>
-                      Hi! I'm the AI assistant for Roorq's portfolio. I can answer questions about
+                      Hi! I'm the AI assistant for Harish's portfolio. I can answer questions about
                       his projects, skills, background, and experience.
                     </p>
                     <p className="mt-2 text-xs opacity-70">
@@ -223,7 +223,7 @@ export default function Playground() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={handleKeyDown}
-                placeholder="Ask me anything about Roorq…"
+                placeholder="Ask me anything about Harish…"
                 rows={1}
                 className="flex-1 px-3 py-2.5 text-sm rounded-md border outline-none resize-none transition-colors"
                 style={{
@@ -298,7 +298,7 @@ export default function Playground() {
             className="text-xs text-center mt-6"
             style={{ color: "var(--color-muted)" }}
           >
-            Powered by AI · Answers are based on Roorq's portfolio data · Rate limited for fair use
+            Powered by AI · Answers are based on Harish's portfolio data · Rate limited for fair use
           </p>
         </div>
       </div>

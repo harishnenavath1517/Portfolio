@@ -51,7 +51,7 @@ export function Navbar() {
             className="font-mono text-sm font-semibold tracking-tight"
             style={{ color: "var(--color-ink)" }}
           >
-            portfolio.dev
+            Harish.dev
           </span>
         </Link>
 

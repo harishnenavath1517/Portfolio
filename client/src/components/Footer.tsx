@@ -27,7 +27,7 @@ export function Footer() {
             className="font-mono text-sm font-semibold"
             style={{ color: "var(--color-ink)" }}
           >
-            roorq.dev
+            Harish.dev
           </span>
         </div>
 
